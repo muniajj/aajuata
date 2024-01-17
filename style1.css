@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+}
+
+form{
+    max-width:400px;
+    margin:auto;
+   
+}
+
+.form-container {
+    border: 1px solid rgb(189, 45, 45);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+label{
+    display: block;
+    margin-bottom:8 px;
+}
+
+input {
+      width: 100%;
+      padding:8px;
+      margin-bottom:16px;
+      box-sizing: border-box;
+}
+
+button{
+    background-color:aqua;
+    color:blue;
+    padding:10 px 15 px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: yellowgreen ;
+}
+
+form {
+    text-align: left;
+}
+.form-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-cell {
+    flex: 1;
+    padding: 8px;
+    text-align: center; /* Adjust text alignment if needed */
+}
+
+/* Additional styling for the table rows and cells */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
